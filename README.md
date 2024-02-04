@@ -1,13 +1,19 @@
-# Sample Hardhat Project
-
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+# Sending ETH from L1 to L2 on Sepolia
 
 Try running some of the following tasks:
 
 ```shell
-npx hardhat help
-npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat run scripts/deploy.js
 ```
+
+```
+node scripts/ethtol2.js
+```
+![Terminal output](https://github.com/mrymg/zksync_l1_to_l2/blob/main/ss/terminal_output.png)
+
+💸 💸 💸
+
+![Transaction Screenshot](https://github.com/mrymg/zksync_l1_to_l2/blob/main/ss/ss_tx.png)
+
